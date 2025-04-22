@@ -1,5 +1,6 @@
 
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -21,9 +22,9 @@ const HeroSection = () => {
             <a href="#problem" className="btn-primary flex items-center gap-2">
               Learn More <ArrowRight size={16} />
             </a>
-            <a href="#contact" className="btn-secondary">
-              Get Started
-            </a>
+            <Link to="/dashboard" className="btn-secondary">
+              Dashboard
+            </Link>
           </div>
         </div>
         <div className="flex-1 relative z-10">
@@ -41,7 +42,7 @@ const HeroSection = () => {
                     <p className="text-sm">How can I reduce my carbon footprint from my daily commute?</p>
                   </div>
                   <div className="bg-primary/10 rounded-lg p-3">
-                    <p className="text-sm">Based on your location, I recommend cycling to work 2 days a week. This would reduce your carbon emissions by 26kg CO2 per month and save you $45 in fuel costs!</p>
+                    <p className="text-sm">Based on your location, I recommend cycling to work 2 days a week. This would reduce your carbon emissions by 26kg CO₂ per month and save you $45 in fuel costs!</p>
                   </div>
                   <div className="bg-gray-100 rounded-lg p-3">
                     <p className="text-sm">That sounds great! Can you add this goal to my tracking?</p>
