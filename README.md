@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
 
-## Project info
+# GreenTalk - Sustainable Living AI Assistant
 
-**URL**: https://lovable.dev/projects/dd7efd7c-37b8-49b2-b9f4-f07e0ebfed89
+## Project Overview
+GreenTalk is an AI-powered web application designed to help users track and reduce their carbon footprint through personalized recommendations and intelligent tracking.
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/dd7efd7c-37b8-49b2-b9f4-f07e0ebfed89) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
+## Technology Stack
+- React 18
 - TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- React Router
+- Shadcn/UI Components
+- Tanstack React Query
 
-## How can I deploy this project?
+## Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/dd7efd7c-37b8-49b2-b9f4-f07e0ebfed89) and click on Share -> Publish.
+### Main Components
+- **Hero Section**: Introduces GreenTalk's mission and AI capabilities
+- **Problem Section**: Highlights environmental challenges
+- **Solution Section**: Explains how GreenTalk addresses sustainability
+- **Features Section**: Detailed breakdown of app features
+- **Tech Stack Section**: Technologies powering the platform
+- **Contact Section**: User engagement and sign-up
 
-## Can I connect a custom domain to my Lovable project?
+### Key Features
+- Carbon footprint tracking
+- Personalized eco-friendly recommendations
+- Travel, electricity, and shopping impact analysis
+- Interactive AI assistant
+- Goal setting and reminders
 
-Yes, you can!
+## Development Setup
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run development server: `npm run dev`
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Deployment
+- Hosted on modern cloud platforms
+- Continuous integration and deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Contributing
+1. Fork the repository
+2. Create feature branches
+3. Submit pull requests
+
+## License
+MIT License
+
+## Contact
+Email: support@greentalk.ai
