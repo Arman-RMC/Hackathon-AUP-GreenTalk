@@ -7,7 +7,7 @@ import FeaturesSection from '../components/FeaturesSection';
 import TechStackSection from '../components/TechStackSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
-import Carboncalculator from '../components/ui/carbonCalculator';
+import Carboncalculator from '../components/CarbonCalculator';
 
 const Index = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
